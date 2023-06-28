@@ -1,0 +1,169 @@
+body {
+  font-family: Arial, sans-serif; /* Mengatur jenis font untuk seluruh body */
+  margin: 0; /* Menghapus margin pada body */
+  padding: 0; /* Menghapus padding pada body */
+  background-color: #f5f5f5; /* Mengatur warna latar belakang body */
+}
+
+.container {
+  max-width: 600px; /* Lebar maksimum kontainer */
+  margin: 20px auto; /* Mengatur margin atas dan bawah dengan nilai 20px, dan margin kiri dan kanan secara otomatis */
+  padding: 20px; /* Mengatur padding di dalam kontainer */
+  background-color: rgba(255, 255, 255, 0.8); /* Mengatur warna latar belakang kontainer dengan transparansi */
+  border-radius: 5px; /* Mengatur radius sudut kontainer */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Memberikan efek bayangan pada kontainer */
+}
+
+.container h1 {
+  text-align: center; /* Mengatur teks pada elemen h1 menjadi rata tengah */
+}
+
+form {
+  margin-top: 20px; /* Mengatur margin atas pada form dengan nilai 20px */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Mengatur margin bawah pada elemen form-group dengan nilai 15px */
+}
+
+label {
+  display: block; /* Mengatur elemen label menjadi blok */
+  font-weight: bold; /* Mengatur teks pada label menjadi tebal */
+}
+
+input[type="number"],
+input[type="file"] {
+  width: 100%; /* Mengatur lebar input menjadi 100% */
+  padding: 5px; /* Mengatur padding pada input dengan nilai 5px */
+  border: 1px solid #ccc; /* Mengatur tampilan border pada input */
+  border-radius: 4px; /* Mengatur radius sudut input */
+}
+
+.btn-primary {
+  display: block; /* Mengatur elemen tombol menjadi blok */
+  width: 100%; /* Mengatur lebar tombol menjadi 100% */
+  padding: 10px; /* Mengatur padding pada tombol dengan nilai 10px */
+  font-size: 16px; /* Mengatur ukuran font pada tombol */
+  text-align: center; /* Mengatur teks pada tombol menjadi rata tengah */
+  color: #fff; /* Mengatur warna teks pada tombol */
+  background-color: #007bff; /* Mengatur warna latar belakang tombol */
+  border: none; /* Menghapus tampilan border pada tombol */
+  border-radius: 4px; /* Mengatur radius sudut tombol */
+  cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+}
+
+.result {
+  display: none; /* Menyembunyikan elemen dengan class "result" */
+  margin-top: 20px; /* Mengatur margin atas pada elemen dengan class "result" dengan nilai 20px */
+}
+
+.result.show {
+  display: block; /* Menampilkan elemen dengan class "result" */
+}
+
+.prediction {
+  display: flex; /* Mengatur elemen dengan class "prediction" menjadi flex container */
+  flex-direction: column; /* Mengatur arah tata letak anak elemen menjadi vertikal (kolom) */
+  align-items: center; /* Mengatur penempatan
+body {
+  font-family: Arial, sans-serif; /* Mengatur jenis font untuk seluruh body */
+  margin: 0; /* Menghapus margin pada body */
+  padding: 0; /* Menghapus padding pada body */
+  background-color: #f5f5f5; /* Mengatur warna latar belakang body */
+}
+
+.container {
+  max-width: 600px; /* Lebar maksimum kontainer */
+  margin: 20px auto; /* Mengatur margin atas dan bawah dengan nilai 20px, dan margin kiri dan kanan secara otomatis */
+  padding: 20px; /* Mengatur padding di dalam kontainer */
+  background-color: rgba(255, 255, 255, 0.8); /* Mengatur warna latar belakang kontainer dengan transparansi */
+  border-radius: 5px; /* Mengatur radius sudut kontainer */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Memberikan efek bayangan pada kontainer */
+}
+
+.container h1 {
+  text-align: center; /* Mengatur teks pada elemen h1 menjadi rata tengah */
+}
+
+form {
+  margin-top: 20px; /* Mengatur margin atas pada form dengan nilai 20px */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Mengatur margin bawah pada elemen form-group dengan nilai 15px */
+}
+
+label {
+  display: block; /* Mengatur elemen label menjadi blok */
+  font-weight: bold; /* Mengatur teks pada label menjadi tebal */
+}
+
+input[type="number"],
+input[type="file"] {
+  width: 100%; /* Mengatur lebar input menjadi 100% */
+  padding: 5px; /* Mengatur padding pada input dengan nilai 5px */
+  border: 1px solid #ccc; /* Mengatur tampilan border pada input */
+  border-radius: 4px; /* Mengatur radius sudut input */
+}
+
+.btn-primary {
+  display: block; /* Mengatur elemen tombol menjadi blok */
+  width: 100%; /* Mengatur lebar tombol menjadi 100% */
+  padding: 10px; /* Mengatur padding pada tombol dengan nilai 10px */
+  font-size: 16px; /* Mengatur ukuran font pada tombol */
+  text-align: center; /* Mengatur teks pada tombol menjadi rata tengah */
+  color: #fff; /* Mengatur warna teks pada tombol */
+  background-color: #007bff; /* Mengatur warna latar belakang tombol */
+  border: none; /* Menghapus tampilan border pada tombol */
+  border-radius: 4px; /* Mengatur radius sudut tombol */
+  cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+}
+
+.result {
+  display: none; /* Menyembunyikan elemen dengan class "result" */
+  margin-top: 20px; /* Mengatur margin atas pada elemen dengan class "result" dengan nilai 20px */
+}
+
+.result.show {
+  display: block; /* Menampilkan elemen dengan class "result" */
+}
+
+.prediction {
+  display: flex; /* Mengatur elemen dengan class "prediction" menjadi flex container */
+  flex-direction: column; /* Mengatur arah tata letak anak elemen menjadi vertikal (kolom) */
+  align-items: center; /* Mengatur penempatan anak elemen secara horizontal pada tengah */
+  background-color: #fff; /* Mengatur warna latar belakang elemen dengan class "prediction" */
+  padding: 10px; /* Mengatur padding pada elemen dengan class "prediction" */
+  border: 1px solid #ccc; /* Mengatur tampilan border pada elemen dengan class "prediction" */
+  border-radius: 5px; /* Mengatur radius sudut elemen dengan class "prediction" */
+}
+
+.prediction .label {
+  font-weight: bold; /* Mengatur teks pada elemen dengan class "label" menjadi tebal */
+  margin-bottom: 5px; /* Mengatur margin bawah pada elemen dengan class "label" dengan nilai 5px */
+}
+
+.prediction .value {
+  font-weight: bold; /* Mengatur teks pada elemen dengan class "value" menjadi tebal */
+  color: #fff; /* Mengatur warna teks pada elemen dengan class "value" */
+  padding: 5px; /* Mengatur padding pada elemen dengan class "value" */
+  border-radius: 5px; /* Mengatur radius sudut elemen dengan class "value" */
+  margin: 0; /* Mengatur margin pada elemen dengan class "value" */
+}
+
+.prediction .value.sehat {
+  background-color: #42b983; /* Mengatur warna latar belakang elemen dengan class "value" ketika bernilai "sehat" */
+}
+
+.prediction .value.sakit {
+  background-color: #f44336; /* Mengatur warna latar belakang elemen dengan class "value" ketika bernilai "sakit" */
+}
+
+footer {
+  text-align: center; /* Mengatur teks pada elemen footer menjadi rata tengah */
+  margin-top: 20px; /* Mengatur margin atas pada elemen footer dengan nilai 20px */
+  padding-top: 20px; /* Mengatur padding atas pada elemen footer dengan nilai 20px */
+  border-top: 1px solid #ccc; /* Mengatur tampilan border pada elemen footer */
+  background-color: #f5f5f5; /* Mengatur warna latar belakang elemen footer */
+  color: #555; /* Mengatur warna teks pada elemen footer */
+}

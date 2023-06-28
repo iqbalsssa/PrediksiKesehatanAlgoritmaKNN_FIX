@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediksi Kesehatan</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediksi Kesehatan Dengan Algoritma KNN</h1> <!-- Judul halaman -->
+        <div id="error-message"></div> <!-- Tempat menampilkan pesan kesalahan -->
+        <form id="prediction-form" method="POST" enctype="multipart/form-data">
+            <!-- Form untuk menginput data -->
+            <div class="form-group">
+                <label for="gula_darah">Gula Darah:</label> <!-- Label untuk input gula darah -->
+                <input type="number" name="gula_darah" required> <!-- Input untuk memasukkan gula darah -->
+            </div>
+
+            <div class="form-group">
+                <label for="kolesterol">Kolesterol:</label> <!-- Label untuk input kolesterol -->
+                <input type="number" name="kolesterol" required> <!-- Input untuk memasukkan kolesterol -->
+            </div>
+
+            <div class="form-group">
+                <label for="asam_urat">Asam Urat:</label> <!-- Label untuk input asam urat -->
+                <input type="number" name="asam_urat" required> <!-- Input untuk memasukkan asam urat -->
+            </div>
+
+            <div class="form-group">
+                <label for="dataset">Upload Dataset (CSV):</label> <!-- Label untuk mengunggah dataset -->
+                <input type="file" name="dataset" accept=".csv" required> <!-- Input untuk memilih file dataset -->
+            </div>
+
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary">Prediksi</button> <!-- Tombol untuk melakukan prediksi -->
+            </div>
+        </form>
+
+        <div id="prediction-result" class="result">
+            <p>Hasil Prediksi:</p> <!-- Teks untuk menampilkan hasil prediksi -->
+            <div class="prediction">
+                <p class="label">Status:</p> <!-- Label untuk status hasil prediksi -->
+                <p id="prediction-status" class="value"></p> <!-- Tempat menampilkan status hasil prediksi -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            1. Iqbal Sain (2003015109)<br> <!-- Nama anggota kelompok -->
+            2. Putra Rafli Wiro Negoro (2003015099)<br>
+            3. Muhammad Irvan Fadillah (2003015095)<br>
+            4. Muhamad Firman Mawahda (1803015154)<br>
+            KELOMPOK TERKECE DAN TERKEREN <!-- Informasi tambahan -->
+        </p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='bootstrap.bundle.min.js') }}"></script> <!-- Script JavaScript eksternal -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script> <!-- Script JavaScript eksternal -->
+</body>
+</html>
